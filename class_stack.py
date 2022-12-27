@@ -38,6 +38,12 @@ class Stack:
 
         return length
 
+    def clear(self):
+
+        count = self.size()
+        for i in range(count):
+            self.pop()
+
     @staticmethod
     def is_balance(item: str) -> bool:
 
